@@ -1,0 +1,17 @@
+{
+  "name": "jubelio-json-server",
+  "version": "1.0.0",
+  "description": "Pocket Json Server Simple",
+  "main": "index.js",
+  "repository": "https://github.com/riquelz/jubelio-json-server.git",
+  "author": "Hosea Simanjuntak <hosea.simanjuntak@anabatic.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "jsonwebtoken": "^8.1.0"
+  },
+  "scripts": {
+    "start-auth": "json-server --watch ./db.json",
+    "start": "node server.js"
+  }
+}
