@@ -2,7 +2,7 @@
   "name": "jubelio-json-server",
   "version": "1.0.0",
   "description": "Pocket Json Server Simple",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/riquelz/jubelio-json-server.git",
   "author": "Hosea Simanjuntak <hosea.simanjuntak@anabatic.com>",
   "license": "MIT",
