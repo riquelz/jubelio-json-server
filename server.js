@@ -19,6 +19,31 @@ server.post('/api/stock', (req, res) => {
   res.status(200).json(okSuccess)
 })
 
+server.post('/api/order', (req, res) => {
+  console.log(req.body);
+  res.status(200).json(okSuccess)
+})
+
+server.post('/api/price', (req, res) => {
+  console.log(req.body);
+  res.status(200).json(okSuccess)
+})
+
+server.post('/api/product', (req, res) => {
+  console.log(req.body);
+  res.status(200).json(okSuccess)
+})
+
+server.post('/api/return', (req, res) => {
+  console.log(req.body);
+  res.status(200).json(okSuccess)
+})
+
+server.post('/api/error', (req, res) => {
+  console.log(req.body);
+  res.status(200).json(okError)
+})
+
 // server.use(/^(?!\/user).*$/,  (req, res, next) => {
 //     next()
 // })
